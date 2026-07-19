@@ -3,7 +3,7 @@
 **Raf.**, kullanıcıların kitapları keşfedebileceği, kişisel okuma listeleri oluşturabileceği ve editoryal bir kütüphane yönetebileceği modern bir React uygulamasıdır. [Open Library API](https://openlibrary.org/developers/api) kullanılarak geliştirilmiştir.
 
 ## 🚀 Canlı Demo
-*(Canlı demo linkini buraya ekle: Örn. https://raf-app.vercel.app)*
+https://raf-app-hg29.vercel.app/
 
 ## 🛠 Kullanılan Teknolojiler
 Bu proje, modern web standartlarına uygun olarak aşağıdaki teknolojilerle inşa edilmiştir:
