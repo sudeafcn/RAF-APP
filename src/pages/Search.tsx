@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import { Search as SearchIcon, Loader2, Book, User, ChevronLeft, ChevronRight, Sparkles, SlidersHorizontal } from 'lucide-react';
+import { Search as SearchIcon, Book, User, ChevronLeft, ChevronRight, Sparkles, SlidersHorizontal } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Sparkles, Search, TrendingUp, Compass, Heart } from 'lucide-react';
+import { ArrowRight, Search, TrendingUp, Compass, Heart } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { bookApi } from '../services/api';
 import BookCard from '../components/BookCard';
