@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-[#0B1120] dark:text-white transition-colors duration-300 antialiased;
+    /* Mobilde dokunulan yerdeki mavi parlamayı kaldırır */
+    -webkit-tap-highlight-color: transparent;
+    /* Mobilde daha yumuşak kaydırma hissi verir */
+    scroll-behavior: smooth;
+  }
+}
+
+/* Mobil cihazlarda çirkin duran kaydırma çubuklarını (scrollbar) gizlemek için yardımcı sınıf */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
